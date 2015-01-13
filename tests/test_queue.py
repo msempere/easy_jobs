@@ -1,14 +1,9 @@
-
 from unittest import TestCase
 from easy_jobs import Queue, Worker
 from time import sleep
-
-def foo(num):
-    return num
+from aux import foo
 
 class TestQueue(TestCase):
-
-
     def test_empty_queue(self):
         queue = Queue('test_1')
         assert 0 == len(queue)
