@@ -1,4 +1,5 @@
-# easy_jobs
+![Logo](http://i.imgur.com/zAupG3p.png)
+
 Persistent job queue employing Redis
 
 ## Versions:
